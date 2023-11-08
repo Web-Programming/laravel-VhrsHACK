@@ -46,8 +46,8 @@ class MahasiswaController extends Controller
     public function insertElq()
     {
         $mahasiswa = new Mahasiswa();
-        $mahasiswa->nama_mahasiswa = 'Ardi al Ghifari';
-        $mahasiswa->npm = '2226250113';
+        $mahasiswa->nama_mahasiswa = 'M Vihir Mujahid';
+        $mahasiswa->npm = '2226250056';
         $mahasiswa->tempat_lahir = 'Palembang';
         $mahasiswa->tanggal_lahir = date("Y-n-d");
         $mahasiswa->save();
