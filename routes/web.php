@@ -30,14 +30,14 @@ Route::get('/profile', function () {
 // });
 
 //Route dengan parameter (Tidak Wajib)
-Route::get('/mahasiswa2/{nama?}', function ($nama = "Ghifari") {
+Route::get('/mahasiswa2/{nama?}', function ($nama = "Vihir Mujahid") {
     echo "<h1>Halo Nama Saya $nama</h2>";
 });
 
 //Route dengan parameter lebih dari 1
 Route::get(
     '/profile/{nama?}/{pekerjaan?}',
-    function ($nama = "Ardi", $pekerjaan = "Mahasiswa") {
+    function ($nama = "Vihir", $pekerjaan = "Mahasiswa") {
         echo "<h1>Halo Nama Saya $nama, Saya adalah $pekerjaan</h2>";
     }
 );
