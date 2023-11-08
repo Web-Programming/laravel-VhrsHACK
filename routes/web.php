@@ -25,7 +25,7 @@ Route::get('/profile', function () {
 });
 
 //Route dengan parameter (Wajib)
-// Route::get('/mahasiswa/{nama}', function ($nama = "Ardi") {
+// Route::get('/mahasiswa/{nama}', function ($nama = "Vihir") {
 //     echo "<h1>Halo Nama Saya $nama</h2>";
 // });
 
